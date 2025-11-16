@@ -1,4 +1,4 @@
-# CLIP & ViCLIP for Visual Search
+# CLIP & ViCLIP
 
 CLIP and ViCLIP enable semantic search across visual content and support tasks like deduplication. By encoding images and text into a shared embedding space, these models let you query large video archives by semantic meaning rather than metadata alone.
 
