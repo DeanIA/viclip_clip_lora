@@ -6,6 +6,8 @@ CLIP and ViCLIP enable semantic search across visual content and support tasks l
 
 Both models are trained on generic datasets that often lack the specificity needed for specialized domains. Off-the-shelf embeddings may miss nuances critical to your use case, leading to suboptimal search results and deduplication performance.
 
+![Diagram from Hugging Face](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/peft/lora_diagram.png)
+
 ## Improving Embeddings with LoRA Fine-tuning
 
 We can improve model performance by fine-tuning on domain-specific data. Rather than retraining the entire model (computationally expensive), LoRA fine-tuning adds lightweight, trainable adapter layers on top of frozen base weights. This approach requires minimal additional parameters while substantially improving embedding quality for your specific domain.
