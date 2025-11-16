@@ -1,0 +1,46 @@
+# Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# Data and model files
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.h5
+
+# Logs and outputs
+*.log
+runs/
+output/
+outputs/
+logs/
+*.tensorboard
+
+# Video and image files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+
+# VSCode and system files
+.vscode/
+.DS_Store
+
+# Ignore the BPE vocab file
+bpe_simple_vocab_16e6.txt.gz
+best_lora_model
+archive
+data/

@@ -1,0 +1,8 @@
+torch
+torchvision
+transformers
+peft
+numpy
+pillow
+opencv-python
+tensorboard
